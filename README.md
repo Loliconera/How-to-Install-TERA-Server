@@ -172,40 +172,40 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 
 ## 16. Useful Releases
 
-* Tera Controller Fix
-* Server Official Documentation
-* Server Opcodes 100.02
-* Translation Files for TERA 92.03 (ENG,RUS,GER,FRA)
-* Tera 92 auto learn skills (excluding common skills)
-* SQL Script MSSQL 2014
-* Datacenter Collection
+* [Tera Controller Fix](https://forum.ragezone.com/f797/tera-controller-fix-1205728/)
+* [Server Official Documentation](https://forum.ragezone.com/f797/tera-server-official-documentation-1206071/)
+* [Server Opcodes 100.02](https://forum.ragezone.com/f797/server-opcodes-p100-02-a-1207231/)
+* [Translation Files for TERA 92.03 (ENG,RUS,GER,FRA)](https://forum.ragezone.com/f797/translation-files-for-tera-92-a-1198465/)
+* [Tera 92 auto learn skills (excluding common skills)](https://forum.ragezone.com/f797/share-tera-92-auto-learn-1206323/)
+* [SQL Script MSSQL 2014](https://forum.ragezone.com/f797/tera-sql-script-for-mssql-1208094/)
+* [Datacenter Collection](https://forum.ragezone.com/f797/tera-datacenter-collection-1208296/)
 
 ## 17. VMS
 
-* 92.03
-* 100.02 Option 1
-* 100.02 Option 2
+* [92.03](https://forum.ragezone.com/f797/92-03-vmware-1198583/)
+* [100.02 Option 1](https://forum.ragezone.com/f797/tera-level-100-version-1205489/index17.html#post9127017)
+* [100.02 Option 2](https://forum.ragezone.com/f797/tera-100-02-server-vm-1207538/)
 
 ## 18. Useful Guides for Beginners
 
-* How to Enable Halloween, Xmax and other Events
-* TERA GM Commands
-* How to make your server fully PvE
-* How to Enable Play Time Event
-* How to Enable Dressing Room / Fashion Shop
-* Faster gathering/mining/harvesting speeds
-* Faster attack and skill speeds
-* Enable/Edit Tikat shop
-* How to Add Items for the In-Game Calendar (Deprecated)
-* How to Setup Arbiter Hook 92.03 (Deprecated)
-* How to get rid/change of the "noname" Box
-* TERA Dungeon ID NA/EU with KR Names
-* How to change experience rate in your server
-* How to configure VM for local network play
-* PDF Primer for Setting Up the Virtual Machine version of Retail 100.02
-* How to remove CSN completion from Kaia Anvil Quest
-* Restoring Torch of the Gods (Kelsaik Nest Hard)
-* How to Fix Fall Damage in Manaya's Core Hard
+* [How to Enable Halloween, Xmax and other Events](https://forum.ragezone.com/f798/tera-92-03-how-to-1194887/)
+* [TERA GM Commands](https://forum.ragezone.com/f798/tera-92-03-gm-commands-1194804/)
+* [How to make your server fully PvE](https://forum.ragezone.com/f798/tera-92-03-how-to-1201587/)
+* [How to Enable Play Time Event](http://com/f798/tera-92-03-100-02-a-1205727/)
+* [How to Enable Dressing Room / Fashion Shop](https://forum.ragezone.com/f798/tera-92-03-100-02-a-1205748/)
+* [Faster gathering/mining/harvesting speeds](https://forum.ragezone.com/f798/tera-100-02-faster-gathering-1207133/)
+* [Faster attack and skill speeds](https://forum.ragezone.com/f798/tera-100-02-faster-attack-1207132/)
+* [Enable/Edit Tikat shop](https://forum.ragezone.com/f798/92-03-enable-edit-tikat-1200695/)
+* [How to Add Items for the In-Game Calendar (Deprecated)](https://forum.ragezone.com/f798/how-to-add-items-for-1194457/)
+* [How to Setup Arbiter Hook 92.03 (Deprecated)](https://forum.ragezone.com/f798/tera-92-03-how-to-1204497/)
+* [How to get rid/change of the "noname" Box](https://forum.ragezone.com/f798/how-to-get-rid-change-1201553/)
+* [TERA Dungeon ID NA/EU with KR Names](https://forum.ragezone.com/f798/tera-dungeon-id-na-eu-1201551/)
+* [How to change experience rate in your server](https://forum.ragezone.com/f798/mini-guide-how-to-change-1200649/)
+* [How to configure VM for local network play](https://forum.ragezone.com/f798/tera-100-02-vm-on-1207134/)
+* [PDF Primer for Setting Up the Virtual Machine version of Retail 100.02](https://forum.ragezone.com/f798/pdf-primer-for-setting-up-1205925/)
+* [How to remove CSN completion from Kaia Anvil Quest](https://forum.ragezone.com/f798/how-to-remove-csn-completion-1209027/)
+* [Restoring Torch of the Gods (Kelsaik Nest Hard)](https://forum.ragezone.com/f798/restoring-torch-of-the-gods-1208952/)
+* [How to Fix Fall Damage in Manaya's Core Hard](https://forum.ragezone.com/f798/how-to-fix-fall-damage-1209065/)
 
 ## 19. Extra
 
