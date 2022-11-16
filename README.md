@@ -213,95 +213,93 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 
 ## 20. FAQ
 
-**CreateFileMapping ?? (5)**
+  * **CreateFileMapping ?? (5)**  
+  * **Server Version: 366358(branch:Live92_3_TW)Exception: %saccess violation(c0000005) has occurred at XXXXXXXXXXXXXXXX**  
 
-**Server Version: 366358(branch:Live92_3_TW)Exception: %saccess violation(c0000005) has occurred at XXXXXXXXXXXXXXXX**  
-
-![image](https://user-images.githubusercontent.com/69399372/202080307-c64c4bd1-2632-4316-8ee4-b9324da70616.png)  
-
-
-**Solution:** Make sure to execute Topography and Worldserver as administrator. Also you must have a system locate on English or Korean
-
-**Grails hags at 83%**  
-
-![image](https://user-images.githubusercontent.com/69399372/202080320-95dd1ba7-d51b-41e3-b111-1b242475cc51.png)  
+  ![image](https://user-images.githubusercontent.com/69399372/202080307-c64c4bd1-2632-4316-8ee4-b9324da70616.png)  
 
 
-**Solution:** Stop using the old java API. Look at the step **8. API**
+   **Solution:** Make sure to execute Topography and Worldserver as administrator. Also you must have a system locate on English or Korean  
 
-**When you start TERA Client 92.03, xingcode appears and inmediately or mins later it closes the client.**
+  * **Grails hags at 83%**  
 
-**Solution:** Download and apply this [xingcode patch](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481-post9060089/#post9060089)
-
-**You can't enter right now**  
-
-![image](https://user-images.githubusercontent.com/69399372/202080345-f6627a5e-57ca-4f2c-9353-12599ab56d75.png)  
+  ![image](https://user-images.githubusercontent.com/69399372/202080320-95dd1ba7-d51b-41e3-b111-1b242475cc51.png)  
 
 
-**Solution:** Wait until **''$Server Ready$''** Status in world server.
+   **Solution:** Stop using the old java API. Look at the step **8. API**  
 
-**Everyone can use gm commands, what can i do?**
+  * **When you start TERA Client 92.03, xingcode appears and inmediately or mins later it closes the client.**  
 
-**Solution:** Open DeploymentConfig.xml and edit **qaServer="true"** to **"false"**
+   **Solution:** Download and apply this [xingcode patch](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481-post9060089/#post9060089)  
 
-```
-<ArbiterServerConfig qaServer="false" validatePacket="true" pveServer="true">
-```
+  * **You can't enter right now**  
 
-Then check **14. Enable Proxy (Optional)** step
-
-**I'm getting speedhack messages and the server kicks me out. (Contents Cheat Account [xxxx])**
-
-**Solution:** Open **ServerConfig.xml** and set <Speedhack turnOn=**"true"** to **false**  
-
-![image](https://user-images.githubusercontent.com/69399372/202080469-c87e65cd-07ec-4be3-b0fd-06a589cc0b06.png)  
-
-**My friends can't connect to my server, which ports i need to open?**
-
-**Solution:** Make sure you have your Public / VPN IP address into "loginIp" column of "server_info" table in the Node JS API, then allow the following ports in your windows fw and router,
-
-80
-443 (Assuming you're using a custom webpage in the same machine with ssl enabled)
-7801 (Assuming you're not using the proxy, if so, allow the port you choose as proxy)
-
-**How to change the server name which appears at lobby?**
-
-**Solution:** Open your mysql db, goto "server_info" table and set your server name into "nameString" column
-
-**How i can reduce the RAM comsumption of my server?**
-
-**Solution:** Edit ~\Datasheet\ContinentData.xml and make sure every single **initChannelCount="1"** has **"1"** as value
-
-**Arbiter Session Destroyed when world server is loading**
-
-**Solution:** This error happens because there's no enough ram available. So, the posible solutions are,
-
-Buy more RAM
-Increase your virtual page
-Keep trying until it loads correctly
-
-**Laurels don't work, what can i do?**
-
-**Solution:** Set an Achievement Season throught WebApp or directly into the "AchievementSeason" table at PlanetDB_2800 database
-
-**Client [] Module [PDL.xml] Version Mismatched! [S:XXXXXX] [C:XXXXXX]**  
-
-![image](https://user-images.githubusercontent.com/69399372/202080494-72a05c2f-bc4f-4add-ac19-646e8b03a0f0.png)  
-
-**Solution:** Client versions are not compatible between updates, so if you downloaded a 100.02 server then you must use a 100.02 client. Using a 115.02 client or superior will not work.
-
-**How i change the gameforge welcome message in client chat box?**
-
-**Solution:** Can be edited from StrSheet_SystemMessage.xml (client side)
+  ![image](https://user-images.githubusercontent.com/69399372/202080345-f6627a5e-57ca-4f2c-9353-12599ab56d75.png)  
 
 
+   **Solution:** Wait until **''$Server Ready$''** Status in world server.  
+
+  * **Everyone can use gm commands, what can i do?**  
+
+   **Solution:** Open DeploymentConfig.xml and edit **qaServer="true"** to **"false"**
+
+  ```
+  <ArbiterServerConfig qaServer="false" validatePacket="true" pveServer="true">  
+  ```
+
+   Then check **14. Enable Proxy (Optional)** step  
+
+  * **I'm getting speedhack messages and the server kicks me out. (Contents Cheat Account [xxxx])**
+
+   **Solution:** Open **ServerConfig.xml** and set <Speedhack turnOn=**"true"** to **false**  
+
+  ![image](https://user-images.githubusercontent.com/69399372/202080469-c87e65cd-07ec-4be3-b0fd-06a589cc0b06.png)  
+
+  * **My friends can't connect to my server, which ports i need to open?**  
+
+   **Solution:** Make sure you have your Public / VPN IP address into "loginIp" column of "server_info" table in the Node JS API, then allow the following ports in      your windows fw and router,
+
+    80  
+    443 (Assuming you're using a custom webpage in the same machine with ssl enabled)  
+    7801 (Assuming you're not using the proxy, if so, allow the port you choose as proxy)  
+
+  * **How to change the server name which appears at lobby?**  
+
+   **Solution:** Open your mysql db, goto "server_info" table and set your server name into "nameString" column  
+
+  * **How i can reduce the RAM comsumption of my server?**  
+
+   **Solution:** Edit ~\Datasheet\ContinentData.xml and make sure every single **initChannelCount="1"** has **"1"** as value  
+
+  * **Arbiter Session Destroyed when world server is loading**  
+
+   **Solution:** This error happens because there's no enough ram available. So, the posible solutions are,  
+
+    Buy more RAM  
+    Increase your virtual page  
+    Keep trying until it loads correctly  
+
+  * **Laurels don't work, what can i do?**  
+
+   **Solution:** Set an Achievement Season throught WebApp or directly into the "AchievementSeason" table at PlanetDB_2800 database  
+
+  * **Client [] Module [PDL.xml] Version Mismatched! [S:XXXXXX] [C:XXXXXX]**  
+
+  ![image](https://user-images.githubusercontent.com/69399372/202080494-72a05c2f-bc4f-4add-ac19-646e8b03a0f0.png)  
+
+   **Solution:** Client versions are not compatible between updates, so if you downloaded a 100.02 server then you must use a 100.02 client. Using a 115.02 client or superior will not work.  
+
+  * **How i change the gameforge welcome message in client chat box?**  
+
+   **Solution:** Can be edited from StrSheet_SystemMessage.xml (client side)  
+   
   
   
-I'm still polishing this and will be more guides coming near the future.
+    I'm still polishing this and will be more guides coming near the future.  
                                                            
-If your tutorial or release is not present here, it doesn't mean that isn't useful...i just didn't added it yet.
+    If your tutorial or release is not present here, it doesn't mean that isn't useful...i just didn't added it yet.  
   
-Credits and Thanks to all RaGEZONE community folks who shared their knowledge and doesn't keep for themselves or for profit.
+    Credits and Thanks to all RaGEZONE community folks who shared their knowledge and doesn't keep for themselves or for profit.  
                                                            
                                                           
 
