@@ -191,7 +191,7 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 * [How to Enable Halloween, Xmax and other Events](https://forum.ragezone.com/f798/tera-92-03-how-to-1194887/)
 * [TERA GM Commands](https://forum.ragezone.com/f798/tera-92-03-gm-commands-1194804/)
 * [How to make your server fully PvE](https://forum.ragezone.com/f798/tera-92-03-how-to-1201587/)
-* [How to Enable Play Time Event](http://com/f798/tera-92-03-100-02-a-1205727/)
+* [How to Enable Play Time Event](https://forum.ragezone.com/f798/tera-92-03-100-02-a-1205727/)
 * [How to Enable Dressing Room / Fashion Shop](https://forum.ragezone.com/f798/tera-92-03-100-02-a-1205748/)
 * [Faster gathering/mining/harvesting speeds](https://forum.ragezone.com/f798/tera-100-02-faster-gathering-1207133/)
 * [Faster attack and skill speeds](https://forum.ragezone.com/f798/tera-100-02-faster-attack-1207132/)
