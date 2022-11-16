@@ -32,58 +32,48 @@ Keep in mind, the purpose of this guide is pointing you to the right direction c
 
 ## 1. Server Files
  * 92.03
- * 92.04
- * 100.02
+ * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
+ * [100.02](https://disk.yandex.ru/d/mIKWjplKyYiliA?w=1)
 
 ## 2. Requirements
 A PC with at least 96GB of ram... but i know almost all of us doesn't meet this requerement, just set a page file in a ssd with a minimum size of 80GB. Also you must have a system locate on English or Korean
 
-* MSSQL dev 2017 or 2019 (2008R2+ and so on works too)
-* SSMS
-* HeidiSQL
-* sqlncli
-* NodeJS 19.x
-* MySQL Server 5.7.38
-* Notepad++ or VSCode
-* Resource hacker
+* MSSQL dev [2017](https://go.microsoft.com/fwlink/?linkid=853016) or [2019](https://go.microsoft.com/fwlink/?linkid=866662) (2008R2+ and so on works too)
+* [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+* [HeidiSQL](https://www.heidisql.com/download.php)
+* [sqlncli](https://www.microsoft.com/en-US/download/details.aspx?id=36434)
+* [NodeJS 19.x](https://nodejs.org/dist/v19.1.0/node-v19.1.0-x64.msi)
+* [MySQL Server 5.7.38](https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-5.7.38.0.msi)
+* [Notepad++](https://notepad-plus-plus.org/downloads/) or [VSCode](https://code.visualstudio.com/download)
+* [Resource hacker](http://www.angusj.com/resourcehacker/#download)
 
 
 ## 3. Installing SQL Server
 
-Follow this guide for install SQL Server; **while you install, do not forget to enable mixed authentication**  
-
-![image](https://user-images.githubusercontent.com/69399372/202078382-ff123fe6-1960-418d-8c55-cf10d9e32880.png)
-
-
-Remember which password you set, this will be the SA user password**
+Follow [this guide](https://www.guru99.com/download-install-sql-server.html) for install SQL Server; **while you install, do not forget to enable mixed authentication**  
+![image](https://user-images.githubusercontent.com/69399372/202078382-ff123fe6-1960-418d-8c55-cf10d9e32880.png)  
+**Remember which password you set, this will be the SA user password**
 
 ## 4. Restore Databases SQL Server
 
 Open and login into SSMS
 Right clic on Databases then clic on restore database  
 ![image](https://user-images.githubusercontent.com/69399372/202078764-49415e3c-92c6-42a9-a988-7b9b30bd99ef.png)  
-
-
-
 Now follow the number order in the next image  
-
 ![image](https://user-images.githubusercontent.com/69399372/202078772-2fafc592-e2ed-4c44-acff-cf77404337d0.png)  
 ![image](https://user-images.githubusercontent.com/69399372/202078788-068579a3-1254-4b28-af72-08975a4cf410.png)  
 
-
-
-
 Now do the same thing for SharedDB, CollectionDB (100.02 only), LogDB_2800 and WebAppDB.
 
-If you want to start with clean databases follow this guide.
+If you want to start with clean databases follow [this guide](https://forum.ragezone.com/f798/how-to-create-clean-databases-1194564/).
 
 ## 5. Installing MySQL Server
 
-Nothing especial, just remember which root password you set.
+Nothing especial, just remember which **root password** you set.
 
 ## 6. Create Account Database MySQL Server
 
-Create a database named “accountdb_2800” with collation utf8 and execute the following sql query located here on it  
+Create a database named “accountdb_2800” with collation utf8 and execute the following sql query [located here](https://github.com/justkeepquiet/tera-api/blob/master/share/db/00_db_schema.sql) on it  
 
 ![image](https://user-images.githubusercontent.com/69399372/202078958-9f464f32-8009-4c28-8dd0-561493d1f04f.png)  
 ![image](https://user-images.githubusercontent.com/69399372/202079013-231a9398-bdc6-4466-a903-f7b404924d73.png)  
@@ -116,12 +106,12 @@ Leave hub and hub_gw as is, no changes are needed.
 
 #### 7.3 DeploymentConfig.xml
 
-Located at ~\Executable\Bin\, Open and edit the following lines with your SQL Server SA / MySQL root credencials  
+Located at ~\Executable\Bin\, Open and edit the following lines with your SQL Server **SA** / MySQL **root** credencials  
 ![image](https://user-images.githubusercontent.com/69399372/202079473-39cb2a6e-bc0a-45a6-989e-1d78aad6cada.png)  
 
 ![image](https://user-images.githubusercontent.com/69399372/202079477-43225ecb-3798-405b-a56a-d72b7c2ff119.png)  
 
-*In 92.03/04 CollectionDB doesn't exist.
+**In 92.03/04 CollectionDB doesn't exist.**
 
 Set external ip value to 127.0.0.1 like this
 ```
@@ -130,12 +120,12 @@ Set external ip value to 127.0.0.1 like this
 
 ## 8. API
 
-Main Thread
-Download and installation guide from here.
+[Main Thread](https://forum.ragezone.com/f797/tera-api-node-js-and-1205579/)
+Download and installation guide from [here](https://github.com/justkeepquiet/tera-api).
 
 ## 9. Starting the Server
 
-Recommended server startup order (Taken From)
+Recommended server startup order (Taken [From](https://forum.ragezone.com/f797/tera-api-node-js-and-1205579/))
 1. hub and hub_gw
 2. Steer Server services
 3. Box Server services
@@ -146,39 +136,39 @@ Recommended server startup order (Taken From)
 8. WorldServer (PartyMatching, BattleField, DungeonServer)
 9. TERA Server Proxy (if used)
 
-You must wail until "$Server Ready$" and "$Registered...." (100.02) status for enter the game with all features.  
+You must wail until **''$Server Ready$''** and **''$Registered....''** (100.02) status for enter the game with all features.  
 
 ![image](https://user-images.githubusercontent.com/69399372/202079741-f0707e54-32a1-4287-a7e4-d0ffc45ac232.png)  
 ![image](https://user-images.githubusercontent.com/69399372/202079750-ccf8028a-a907-4b21-843a-63bb33d5d78c.png)  
 
 ## 10. How to get and change the IP address from launcher
 
-Download the launcher from here
+Download the launcher from [here](https://forum.ragezone.com/f797/tera-api-node-js-and-1205579/)
 
-Open the launcher with resource hacker and go to string table and edit YOURSERVERIP in strings 19 and 20  
+Open the launcher with resource hacker and go to string table and edit **YOURSERVERIP** in strings 19 and 20  
 
 ![image](https://user-images.githubusercontent.com/69399372/202079885-3eeaf1ac-f940-4e0c-a70d-a19098e95e0e.png)  
 ![image](https://user-images.githubusercontent.com/69399372/202079890-95d3ccb0-4ef1-437e-8939-ad6c75546106.png)  
 
 ## 11. Enable item Claim (Box/Steer Server) (Optional)
 
-Follow this guide
+Follow [this](https://forum.ragezone.com/f797/tera-92-100-steer-server-1206086/) guide
 
 ## 12. Enable TERA Shop Features (Optional)
 
-Follow this guide
+Follow [this](https://forum.ragezone.com/f797/tera-api-node-js-and-1205579-post9137118/#post9137118) guide
 
 ## 13. Enable Launcher Patching (Optional)
 
-Follow this guide
+Follow [this](https://forum.ragezone.com/f797/tera-api-node-js-and-1205579/) guide
 
 ## 14. Enable Proxy (Optional)
 
-Follow this guide
+Follow [this](https://forum.ragezone.com/f797/tera-server-proxy-allowing-gm-1207688/) guide
 
 ## 15. Setting Up WebApp (Optional)
 
-Follow this guide
+Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-post9125989/#post9125989) guide
 
 ## 16. Useful Releases
 
