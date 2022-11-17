@@ -31,9 +31,13 @@ Keep in mind, the purpose of this guide is pointing you to the right direction c
 20. FAQ
 
 ## 1. Server Files
- * 92.03
+ * [92.03](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481/)
  * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
  * [100.02](https://disk.yandex.ru/d/mIKWjplKyYiliA?w=1)
+## 1.1 Client Files
+* [92.03](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481-post9079748/#post9079748)
+* [92.04](https://forum.ragezone.com/f797/tera-server-92-04-retail-1206066-post9129907/#post9129907)
+* [100.02](https://forum.ragezone.com/f797/tera-level-100-version-1205489-post9127422/#post9127422)
 
 ## 2. Requirements
 A PC with at least 96GB of ram... but i know almost all of us doesn't meet this requerement, just set a page file in a ssd with a minimum size of 80GB. Also you must have a system locate on English or Korean
