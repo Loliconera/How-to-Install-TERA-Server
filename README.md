@@ -31,7 +31,7 @@ Keep in mind, the purpose of this guide is pointing you to the right direction c
 20. FAQ
 
 ## 1. Server Files
- * [92.03](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481/)
+ * [92.03](https://disk.yandex.ru/d/Fob3M8BffjcTrg)
  * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
  * [100.02](https://disk.yandex.ru/d/mIKWjplKyYiliA?w=1)
 ## 1.1 Client Files
