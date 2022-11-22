@@ -34,11 +34,12 @@ Keep in mind, the purpose of this guide is pointing you to the right direction c
  * [92.03](https://disk.yandex.ru/d/Fob3M8BffjcTrg)
  * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
  * [100.02](https://drive.google.com/drive/folders/1kNkxB8H9_ROIwaMIav2lCtfPP9Wo9NB2), [Link 2](https://disk.yandex.ru/d/mIKWjplKyYiliA?w=1)
+ * [TERA Clients and Servers Collection](https://forum.ragezone.com/f797/tera-clients-and-servers-collection-1209317/)
 ## 1.1 Client Files
 * [92.03](https://forum.ragezone.com/f797/release-tera-v92-03-retail-1193481-post9079748/#post9079748)
 * [92.04](https://disk.yandex.ru/d/GcB_CyNARHo3qw)
 * [100.02](https://mega.nz/folder/wx8AEAIC#JdSyKwOlpC6PIV8sffxzGA)
-
+* [TERA Clients and Servers Collection](https://forum.ragezone.com/f797/tera-clients-and-servers-collection-1209317/)
 ## 2. Requirements
 A PC with at least 96GB of ram... but i know almost all of us doesn't meet this requerement, just set a page file in a ssd with a minimum size of 80GB. Also you must have a system locate on English or Korean
 
