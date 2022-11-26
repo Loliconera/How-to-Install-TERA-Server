@@ -216,7 +216,11 @@ Follow [this](https://forum.ragezone.com/f797/tera-level-100-version-1205489-pos
 
 [Official Fan/Press/Art Kits](https://forum.ragezone.com/f797/tera-oficial-fan-press-art-1206065/)
 
-## 20. FAQ
+## 20. Tools
+* Novadrop ([Source](https://github.com/vezel-dev/novadrop) [Compiled bins](https://forum.ragezone.com/f797/tera-level-100-version-1205489-post9151406/#post9151406))
+* [RealEditor](https://github.com/VenoMKO/RealEditor)
+
+## 21. FAQ
 
   * **CreateFileMapping ?? (5)**  
   * **Server Version: 366358(branch:Live92_3_TW)Exception: %saccess violation(c0000005) has occurred at XXXXXXXXXXXXXXXX**  
